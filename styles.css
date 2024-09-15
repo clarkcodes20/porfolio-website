@@ -1,0 +1,195 @@
+@import url(https://fonts.google.com/knowledge/glossary/family_or_type_family_or_font_familyhttps://fonts.google.com/knowledge/glossary/family_or_type_family_or_font_family);
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+header{
+    margin-top: 20px;
+    position: fixed;
+    top: 0;
+    left: 0s;
+    width: 100%;
+    padding: 1rem 9%;
+    background-color: transparent;
+    filter: drop-shadow(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 3rem;
+    color: brown;
+    font-weight: 800;
+    cursor: pointer;
+    transition: color 0.5s ease, transform 0.5s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+    color: antiquewhite;
+}
+
+nav a{
+    font-size: 1.8rem;
+    color: aliceblue;
+    margin-left: 70rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+nav a:hover{
+    color: brown;
+    border-bottom: 3px solid brown;
+    color: brown;
+    
+}
+
+
+@media(max-width:995px){
+    nav{
+        position: absolute;
+        top: 1%;
+        right: 0;
+       width: 40%; 
+       border-left: 3px solid brown;
+       border-bottom: 3px solid brown;
+       border-bottom-left-radius: 2rem;
+       padding: 1rem solid;
+       background-color: black;
+       border-top: 0.1rem solid black;
+    }
+
+    nav.active{
+        display: block;
+    }
+
+    nav a{
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+
+    nav a:hover{
+        padding: 1rem;
+        border-radius: 0.5rem;
+        border-bottom: 0.5rem brown;
+        color: brown;
+    }
+}
+
+section{
+    min-height: 100vh;
+    padding: 5rem 9% 5rem;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    background-color: black;
+}
+
+.home .home-content h1{
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+span{
+    color: brown;
+}
+
+.home-content h3{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.home-img{
+    border-radius: 50%;
+}
+
+.home-img img{
+    position: relative;
+    width: 32vw;
+    border-radius: 50%;
+    box-shadow: 0.0 25px solid brown;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+
+.home-img img:hover{
+    font-size: 1.8rem;
+    font-weight: 500;
+    transform: scale(1.3);
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 2em;
+}
+
+.icon:hover{
+  color: brown;
+}
+
+.home-content h4{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.h4:hover{
+    color: brown;
+}
+.fa-facebook {
+ color: antiquewhite;
+}
+
+.fa-facebook:hover{
+    transform: scale(1.3);
+    color: brown;
+}
+.fa-instagram{
+    color: antiquewhite;
+}
+.fa-instagram:hover{
+    color: brown;
+    transform: scale(1.3);
+}
+.fa-tiktok{
+    color: antiquewhite;
+}
+.fa-tiktok:hover{
+    color: brown;
+    transform: scale(1.3);
+}
+
+
+    
+
+    
+
+
